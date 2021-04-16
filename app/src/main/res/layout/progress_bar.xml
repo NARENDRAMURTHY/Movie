@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProgressBar android:layout_height="wrap_content" android:layout_width="match_parent"
+    xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/cardview_dark_background"
+    android:indeterminateTint="#ffcc57"/>

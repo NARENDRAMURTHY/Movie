@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+<TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Playing Now" android:paddingBottom="10dp" android:paddingTop="5dp" android:paddingLeft="24dp" android:background="#808080" android:textColor="#ffa500" android:textSize="18sp"/>
+
+<androidx.recyclerview.widget.RecyclerView android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:id="@+id/movie_poster_recyclerView"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Most Popular" android:paddingBottom="10dp" android:paddingTop="5dp" android:paddingLeft="24dp" android:background="#808080" android:textColor="#ffa500" android:textSize="18sp"/>
+
+<androidx.recyclerview.widget.RecyclerView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/movie_recyclerView"/>
+
+</LinearLayout>
